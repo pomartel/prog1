@@ -4,16 +4,13 @@ title = '420-F06-RO Programmation 1'
 defaultContentLanguage = "fr"
 
 
-# Change the default theme to be use when building the site with Hugo
-theme = "relearn"
-
 # For search functionality
 [outputs]
 home = ["HTML", "RSS", "SEARCH"]
 
-# [module]
-# [[module.imports]]
-# path = 'github.com/pomartel/hugo-theme-relearn'
+[module]
+[[module.imports]]
+path = 'github.com/McShelby/hugo-theme-relearn'
 
 [params]
 # If an option value is said to be not set, you can achieve the same behavior
@@ -227,7 +224,7 @@ collapsibleMenu = true
 # This also causes the display of the `Clear History` entry in the lower part
 # of the menu to remove all checkmarks. The checkmarks will also been removed
 # if you regenerate your site as the ids are not stable.
-showVisitedLinks = true
+showVisitedLinks = false
 
 # Hide heading above the shortcut menu.
 # Default: false

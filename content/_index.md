@@ -2,4 +2,5 @@
 archetype = "home"
 +++
 
-Lorem Ipsum.
+{{% children sort="weight" %}}
+
