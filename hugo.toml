@@ -3,6 +3,9 @@ title = '420-F06-RO Programmation 1'
 languageCode = 'fr-ca'
 defaultContentLanguage = "fr"
 
+RelativeURLs = true
+CanonifyURLs = true
+
 # For search functionality
 [outputs]
 home = ["HTML", "RSS", "SEARCH"]
