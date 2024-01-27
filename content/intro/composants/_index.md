@@ -1,8 +1,9 @@
 +++
 title = "Les composants d'un ordinateur"
+weight = 2
 +++
 
-![Schéma des composants d'un ordinateur](composants.jpg)
+![Schéma des composants d'un ordinateur](composants.jpg?width=700px)
 
 Les différents composants d'un ordinateur sont :
 

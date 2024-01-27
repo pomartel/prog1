@@ -6,9 +6,10 @@ defaultContentLanguage = "fr"
 RelativeURLs = true
 CanonifyURLs = true
 
-# For search functionality
 [outputs]
-home = ["HTML", "RSS", "SEARCH"]
+home = ["HTML", "RSS", "PRINT"]
+section = ["HTML", "RSS", "PRINT"]
+page = ["HTML", "RSS", "PRINT"]
 
 [module]
 [[module.imports]]
@@ -77,7 +78,7 @@ social.twitter = ""
 # docs for a detailed explaination.
 # You can also define your own variants. See the docs how this works. Also,
 # the docs provide an interactive theme generator to help you with this task.
-themeVariant = "zen-light"
+themeVariant = "relearn-light"
 # themeVariant = [
 # 	{ identifier = "relearn-auto",  name = "Relearn Light/Dark", auto = [] },
 # 	{ identifier = "relearn-light"  },
@@ -358,7 +359,7 @@ externalLinkTarget = "_blank"
 # If set to true, the theme behaves like a standard Hugo installation and
 # appends no index.html to prettyURLs. As a trade off, your build project will
 # not be servable from the file system.
-disableExplicitIndexURLs = false
+disableExplicitIndexURLs = true
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # MathJax

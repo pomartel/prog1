@@ -1,7 +1,7 @@
 +++
-title = "Les paradigmes des langages de programmation"
+title = "Les paradigmes de programmation"
 +++
 
-Voici quelques caractéristiques qui différencient les langages de programmation.
+Voici différents paradigmes qui distinguent les langages de programmation:
 
 {{% children sort="weight" %}}
